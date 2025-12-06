@@ -24,8 +24,7 @@ nav ul {
     display: flex; 
     justify-content: center;
     gap: 20px;
-    
-    list-style-type: none; 
+    list-style-type: none;
     background-color: #333;
     padding: 1rem;
     margin: 0;
@@ -46,21 +45,19 @@ nav a {
 
 img {
     width: 100%;
-    
     border: 5px solid #555;
     padding: 5px;
     border-radius: 15px;
-    
     transition: transform 0.3s ease, border-color 0.3s ease;
 }
 
 img:hover {
-    transform: scale(1.05); 
-    border-color: #ff6347; 
+    transform: scale(1.05);
+    border-color: #ff6347;
     cursor: pointer;
 }
 
 .gallery-container img:nth-child(even) {
     border-style: dashed;
-    border-color: #4CAF50; 
+    border-color: #4CAF50;
 }
